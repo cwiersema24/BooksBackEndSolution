@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace BooksBackEnd.Services
 {
-    public class SystemTime
+    public class SystemTime:ISystemTime
     {
         public DateTime GetCurrent()
         {
